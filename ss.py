@@ -10,7 +10,7 @@ def take_screenshot():
         im = pyautogui.screenshot()
 
         # Specify the directory where you want to save the image
-        save_directory = "C:/Users/fzrah/OneDrive/Pictures/Screenshots"
+        save_directory = "your-directory-here"
 
         # Generate a random filename using uuid
         random_filename = str(uuid.uuid4()) + ".jpg"
